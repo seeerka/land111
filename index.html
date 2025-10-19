@@ -105,70 +105,351 @@
     <main class="main">
 
       <!-- Начало bonus -->
- <section class="bonus">
-        <div class="container">
-          <div class="bonus-slider swiper swiper-flip swiper-3d swiper-initialized swiper-horizontal swiper-pointer-events">
-            <ul class="swiper-wrapper" id="swiper-wrapper-1022e92a1ced3e788" aria-live="polite" style="transition-duration: 0ms;">
-              <li class="bonus-slider__item swiper-slide rd-background rd-upload rd-load swiper-slide-visible swiper-slide-active" data-rd-image="./img/bonus-1-back.webp" role="group" aria-label="1 / 3" style="width: 1120px; z-index: 3; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg); background-image: url(&quot;./img/bonus-1-back.webp&quot;); transition-duration: 0ms;">
-                <div class="bonus-slider__descr">
-                  <div class="bonus-slider__title tt-31-21 text-center">
-                    Первые бонусы уже ждут
-                  </div>
-               <ul class="bonus-slider__sublist">
-                    <li class="bonus-slider__subitem tx-17-14 text-center">
-                      <span class="tx-22-18 fw-700">150%</span> на первый депозит
-                    </li>
-                    <li class="bonus-slider__subitem tx-17-14 text-center">
-                      <span class="tx-22-18 fw-700">50 FS</span> за привязку телеграм
-                    </li>
-                    <li class="bonus-slider__subitem tx-17-14 text-center">
-                      <span class="tx-22-18 fw-700">до 300 FS</span> без вагера за депозит
-                    </li>
-                  </ul>
-                </div>
-                <div class="bonus-slider__image">
-                  <img src="./img/bonus-1.webp" data-rd-image="./img/bonus-1.webp" width="336" height="336" alt="Приветственные бонусы уже ждут в Vodka casino">
-                </div>
-              <div class="swiper-slide-shadow-left" style="opacity: 0; transition-duration: 0ms;"></div><div class="swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;"></div></li>
-              <li class="bonus-slider__item swiper-slide rd-background rd-upload rd-load swiper-slide-next" data-rd-image="./img/bonus-2-back.webp" role="group" aria-label="2 / 3" style="width: 1120px; z-index: 2; transform: translate3d(-1120px, 0px, 0px) rotateX(0deg) rotateY(180deg); background-image: url(&quot;./img/bonus-2-back.webp&quot;); transition-duration: 0ms;">
-                <div class="bonus-slider__descr">
-                  <div class="bonus-slider__title tt-31-21 text-center uppercase">
-                    jackpot
-                  </div>
-                  <ul class="bonus-slider__sublist">
-                    <li class="bonus-slider__subitem tx-17-14 text-center">
-                      <span class="tt-31-21">$ 9 000</span>
-                    </li>
-                    <li class="bonus-slider__subitem tx-17-14 text-center">
-                      Каждый спин увеличивает банк джекпота. Победить может каждый активный пользователь!
-                    </li>
-                  </ul>
-                  <a class="bonus-slider__link link" href="https://1wilib.life/casino/list?open=register&p=cnpz">
-                    Как сорвать джекпот?
-                  </a>
-                </div>
-                <div class="bonus-slider__image">
-                  <img src="./img/bonus-2.webp" data-rd-image="./img/bonus-2.webp" width="336" height="336" alt="Приветственные водка казино бонусы уже ждут">
-                </div>
-              <div class="swiper-slide-shadow-left" style="opacity: 1; transition-duration: 0ms;"></div><div class="swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;"></div></li>
-              <li class="bonus-slider__item swiper-slide rd-background rd-upload rd-load" data-rd-image="./img/bonus-3-back.webp" role="group" aria-label="3 / 3" style="width: 1120px; z-index: 2; transform: translate3d(-2240px, 0px, 0px) rotateX(0deg) rotateY(180deg); background-image: url(&quot;./img/bonus-3-back.webp&quot;); transition-duration: 0ms;">
-                <div class="bonus-slider__descr">
-                  <div class="bonus-slider__title tt-31-21 text-center">
-                    Почему водка?
-                  </div>
-                  <p class="bonus-slider__subitem tx-17-14 text-center">
-                    Только здесь можно включить режим, который погрузит тебя в домашнюю атмосферу
-                  </p>
-                </div>
-                <div class="bonus-slider__image">
-                  <img src="./img/bonus-3.webp" data-rd-image="./img/bonus-3.webp" width="336" height="336" alt="Почему vodka casino Нужно выбрать?">
-                </div>
-              <div class="swiper-slide-shadow-left" style="opacity: 1; transition-duration: 0ms;"></div><div class="swiper-slide-shadow-right" style="opacity: 0; transition-duration: 0ms;"></div></li>
+ <section class="bonus" id="bonus-slider">
+  <div class="container">
+    <div class="bonus-slider-wrapper">
+      <!-- Слайд 1 - Первые бонусы -->
+      <div class="bonus-slide active" data-slide="1">
+        <div class="bonus-content">
+          <!-- Левая часть - заголовок и бонусы -->
+          <div class="bonus-text">
+            <h2 class="bonus-title">Первые бонусы уже ждут</h2>
+            <ul class="bonus-list">
+              <li class="bonus-item">
+                <span class="bonus-highlight">150%</span>
+                <span class="bonus-text">на первый депозит</span>
+              </li>
+              <li class="bonus-item">
+                <span class="bonus-highlight">50 FS</span>
+                <span class="bonus-text">за привязку телеграм</span>
+              </li>
+              <li class="bonus-item">
+                <span class="bonus-highlight">до 300 FS</span>
+                <span class="bonus-text">без вагера за депозит</span>
+              </li>
             </ul>
-            <div class="bonus-slider__pagination bonus-slider-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Перейти к слайду 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Перейти к слайду 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Перейти к слайду 3"></span></div>
-          <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+          </div>
+          
+          <!-- Правая часть - изображение -->
+          <div class="bonus-image">
+            <img src="./img/bonus-1.webp" alt="Приветственные бонусы Vodka casino" width="336" height="336">
+          </div>
         </div>
-      </section>
+      </div>
+
+      <!-- Слайд 2 - Джекпот -->
+      <div class="bonus-slide" data-slide="2">
+        <div class="bonus-content">
+          <div class="bonus-text">
+            <h2 class="bonus-title">JACKPOT</h2>
+            <ul class="bonus-list">
+              <li class="bonus-item">
+                <span class="bonus-highlight">$ 9 000</span>
+              </li>
+              <li class="bonus-item">
+                <span class="bonus-text">Каждый спин увеличивает банк джекпота. Победить может каждый активный пользователь!</span>
+              </li>
+            </ul>
+            <a href="https://1wilib.life/casino/list?open=register&p=cnpz" class="bonus-link">Как сорвать джекпот?</a>
+          </div>
+          <div class="bonus-image">
+            <img src="./img/jackpot-image.webp" alt="Джекпот Vodka casino" width="336" height="336">
+          </div>
+        </div>
+      </div>
+
+      <!-- Слайд 3 - Почему водка -->
+      <div class="bonus-slide" data-slide="3">
+        <div class="bonus-content">
+          <div class="bonus-text">
+            <h2 class="bonus-title">Почему водка?</h2>
+            <ul class="bonus-list">
+              <li class="bonus-item">
+                <span class="bonus-text">Только здесь можно включить режим, который погрузит тебя в домашнюю атмосферу</span>
+              </li>
+            </ul>
+          </div>
+          <div class="bonus-image">
+            <img src="./img/vodka-theme.webp" alt="Атмосфера Vodka casino" width="336" height="336">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Навигационные стрелки -->
+    <button class="slider-arrow prev-arrow" onclick="changeSlide(-1)">
+      ‹
+    </button>
+    <button class="slider-arrow next-arrow" onclick="changeSlide(1)">
+      ›
+    </button>
+
+    <!-- Индикаторы -->
+    <div class="slider-indicators">
+      <button class="indicator active" onclick="goToSlide(0)"></button>
+      <button class="indicator" onclick="goToSlide(1)"></button>
+      <button class="indicator" onclick="goToSlide(2)"></button>
+    </div>
+  </div>
+</section>
+
+<style>
+.bonus {
+  padding: 3rem 1rem;
+  background: transparent;
+}
+
+.bonus-slider-wrapper {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bonus-slide {
+  display: none;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.bonus-slide.active {
+  display: block;
+}
+
+.bonus-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  min-height: 400px;
+  background: linear-gradient(135deg, #8B5CF6, #7C3AED, #EC4899);
+  border-radius: 2rem;
+  padding: 3rem;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.bonus-text {
+  flex: 1;
+  text-align: center;
+  color: white;
+}
+
+.bonus-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.bonus-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+}
+
+.bonus-item {
+  background: rgba(255,255,255,0.95);
+  color: #1F2937;
+  padding: 1.25rem 2rem;
+  margin: 1rem 0;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  border: 2px solid #EC4899;
+  min-width: 300px;
+  display: inline-block;
+}
+
+.bonus-highlight {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #EC4899;
+  margin-bottom: 0.5rem;
+}
+
+.bonus-text {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.bonus-link {
+  display: inline-block;
+  background: white;
+  color: #7C3AED;
+  padding: 1rem 2rem;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.bonus-link:hover {
+  background: #f8f9fa;
+  transform: translateY(-2px);
+}
+
+.bonus-image {
+  flex-shrink: 0;
+}
+
+.bonus-image img {
+  width: 336px;
+  height: 336px;
+  border-radius: 1.5rem;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+  object-fit: cover;
+}
+
+/* Навигация */
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.9);
+  border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.slider-arrow:hover {
+  background: white;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.prev-arrow {
+  left: -25px;
+}
+
+.next-arrow {
+  right: -25px;
+}
+
+.slider-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255,255,255,0.5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.indicator.active {
+  background: white;
+  width: 32px;
+  border-radius: 6px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Адаптивность */
+@media (max-width: 968px) {
+  .bonus-content {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  .bonus-title {
+    font-size: 2rem;
+  }
+  
+  .bonus-image img {
+    width: 280px;
+    height: 280px;
+  }
+  
+  .slider-arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 1.25rem;
+  }
+  
+  .prev-arrow {
+    left: 10px;
+  }
+  
+  .next-arrow {
+    right: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bonus {
+    padding: 2rem 1rem;
+  }
+  
+  .bonus-content {
+    padding: 1.5rem;
+  }
+  
+  .bonus-title {
+    font-size: 1.75rem;
+  }
+  
+  .bonus-item {
+    min-width: 250px;
+    padding: 1rem 1.5rem;
+  }
+  
+  .bonus-highlight {
+    font-size: 1.75rem;
+  }
+}
+</style>
+
+<script>
+let currentSlide = 0;
+const slides = document.querySelectorAll('.bonus-slide');
+const indicators = document.querySelectorAll('.indicator');
+
+function showSlide(index) {
+  // Скрываем все слайды
+  slides.forEach(slide => slide.classList.remove('active'));
+  indicators.forEach(indicator => indicator.classList.remove('active'));
+  
+  // Показываем текущий слайд
+  slides[index].classList.add('active');
+  indicators[index].classList.add('active');
+  currentSlide = index;
+}
+
+function changeSlide(direction) {
+  let newIndex = currentSlide + direction;
+  if (newIndex < 0) newIndex = slides.length - 1;
+  if (newIndex >= slides.length) newIndex = 0;
+  showSlide(newIndex);
+}
+
+function goToSlide(index) {
+  showSlide(index);
+}
+
+// Автопрокрутка каждые 5 секунд
+setInterval(() => {
+  changeSlide(1);
+}, 5000);
+
+// Инициализация первого слайда
+showSlide(0);
+</script>
       <!-- Конец bonus -->
 
       <!-- Начало hero -->
