@@ -92,36 +92,36 @@
     <main class="main">
 
       <!-- Начало bonus -->
-  <section class="bonus">
+ <section class="bonus">
   <div class="container">
     <div class="bonus-slider swiper swiper-flip swiper-3d swiper-initialized swiper-horizontal swiper-pointer-events">
       <ul class="swiper-wrapper" id="swiper-wrapper-1022e92a1ced3e788" aria-live="polite" style="transition-duration: 0ms;">
         <li class="bonus-slider__item swiper-slide rd-background rd-upload rd-load swiper-slide-visible swiper-slide-active" data-rd-image="./img/bonus-1-back.webp" role="group" aria-label="1 / 3" style="width: 1120px; z-index: 3; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg); background-image: url(&quot;./img/bonus-1-back.webp&quot;); transition-duration: 0ms;">
           
-          <!-- Основная структура с flexbox -->
-          <div style="display: flex; align-items: center; justify-content: space-between; width: 100%; height: 100%; padding: 40px;">
+          <!-- Основная структура с четким разделением на левую и правую части -->
+          <div style="display: flex; align-items: center; height: 100%; min-height: 400px; position: relative;">
             
-            <!-- Левый блок с заголовком и преимуществами -->
-            <div class="bonus-slider__descr" style="flex: 1; max-width: 500px;">
-              <div class="bonus-slider__title tt-31-21 text-center" style="margin-bottom: 40px; color: #fff; text-shadow: 1px 1px 2px rgba(0,0,0,0.8);">
+            <!-- Левая часть - занимает 60% ширины -->
+            <div class="bonus-slider__descr" style="flex: 0 0 60%; padding: 40px; display: flex; flex-direction: column; justify-content: center;">
+              <div class="bonus-slider__title tt-31-21" style="margin-bottom: 40px; color: #fff; text-align: center; text-shadow: 2px 2px 4px rgba(0,0,0,0.7); font-size: 2.5rem;">
                 Первые бонусы уже ждут
               </div>
               <ul class="bonus-slider__sublist" style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; align-items: center; gap: 20px;">
-                <li class="bonus-slider__subitem tx-17-14 text-center" style="background: rgba(255,255,255,0.9); padding: 15px 25px; border-radius: 10px; min-width: 280px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
-                  <span class="tx-22-18 fw-700" style="color: #e74c3c; display: block;">150%</span> на первый депозит
+                <li class="bonus-slider__subitem tx-17-14" style="background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%); padding: 20px 30px; border-radius: 15px; min-width: 300px; box-shadow: 0 6px 20px rgba(0,0,0,0.2); border: 2px solid #e74c3c; text-align: center;">
+                  <span class="tx-22-18 fw-700" style="color: #e74c3c; display: block; font-size: 2rem;">150%</span> на первый депозит
                 </li>
-                <li class="bonus-slider__subitem tx-17-14 text-center" style="background: rgba(255,255,255,0.9); padding: 15px 25px; border-radius: 10px; min-width: 280px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
-                  <span class="tx-22-18 fw-700" style="color: #e74c3c; display: block;">50 FS</span> за привязку телеграм
+                <li class="bonus-slider__subitem tx-17-14" style="background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%); padding: 20px 30px; border-radius: 15px; min-width: 300px; box-shadow: 0 6px 20px rgba(0,0,0,0.2); border: 2px solid #e74c3c; text-align: center;">
+                  <span class="tx-22-18 fw-700" style="color: #e74c3c; display: block; font-size: 2rem;">50 FS</span> за привязку телеграм
                 </li>
-                <li class="bonus-slider__subitem tx-17-14 text-center" style="background: rgba(255,255,255,0.9); padding: 15px 25px; border-radius: 10px; min-width: 280px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
-                  <span class="tx-22-18 fw-700" style="color: #e74c3c; display: block;">до 300 FS</span> без вагера за депозит
+                <li class="bonus-slider__subitem tx-17-14" style="background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%); padding: 20px 30px; border-radius: 15px; min-width: 300px; box-shadow: 0 6px 20px rgba(0,0,0,0.2); border: 2px solid #e74c3c; text-align: center;">
+                  <span class="tx-22-18 fw-700" style="color: #e74c3c; display: block; font-size: 2rem;">до 300 FS</span> без вагера за депозит
                 </li>
               </ul>
             </div>
 
-            <!-- Правая часть с картинкой -->
-            <div class="bonus-slider__image" style="flex: 0 0 auto; margin-left: 40px;">
-              <img src="./img/bonus-1.webp" data-rd-image="./img/bonus-1.webp" width="336" height="336" alt="Приветственные бонусы уже ждут в Vodka casino" style="display: block; max-width: 100%; height: auto;">
+            <!-- Правая часть - занимает 40% ширины -->
+            <div class="bonus-slider__image" style="flex: 0 0 40%; display: flex; justify-content: center; align-items: center; padding: 20px;">
+              <img src="./img/bonus-1.webp" data-rd-image="./img/bonus-1.webp" width="336" height="336" alt="Приветственные бонусы уже ждут в Vodka casino" style="max-width: 100%; height: auto; filter: drop-shadow(0 10px 20px rgba(0,0,0,0.3));">
             </div>
 
           </div>
