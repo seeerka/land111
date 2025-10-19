@@ -63,6 +63,12 @@ function preventBackNavigation() {
 // Инициализация при загрузке страницы
 window.addEventListener('load', preventBackNavigation);
 </script>
+  <!-- Другие метатеги -->
+  <script>
+  function redirectWithNoReturn(url) {
+    window.location.replace(url);
+  }
+  </script>
 </head>
 
 <body>
