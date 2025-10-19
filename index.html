@@ -44,6 +44,25 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/104706242" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+ <script>
+// Функция для блокировки возврата
+function preventBackNavigation() {
+  // Заменяем текущую запись в истории
+  window.history.replaceState(null, null, window.location.href);
+  
+  // Добавляем слушатель на попытку навигации назад
+  window.history.pushState(null, null, window.location.href);
+  
+  window.addEventListener('popstate', function() {
+    window.history.pushState(null, null, window.location.href);
+    // Дополнительно можно показать сообщение
+    alert('Возврат на предыдущую страницу невозможен');
+  });
+}
+
+// Инициализация при загрузке страницы
+window.addEventListener('load', preventBackNavigation);
+</script>
 </head>
 
 <body>
